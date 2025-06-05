@@ -1,0 +1,13 @@
+.float-right{
+    color: lightgray;
+    font-weight: 500;
+    float: right;
+}
+.img-wrapper{
+    margin-top: -100px;
+
+}
+.carousel-inner-1{
+    padding: 1em;
+}
+
