@@ -1,13 +1,37 @@
-.float-right{
+.float-right {
     color: lightgray;
     font-weight: 500;
     float: right;
 }
-.img-wrapper{
+
+.img-wrapper {
     margin-top: -100px;
 
 }
-.carousel-inner-1{
+
+.carousel-inner-1 {
     padding: 1em;
 }
 
+.po-date {
+    right: 0px;
+    bottom: 46%;
+}
+
+.input-se {
+    padding: 8px;
+    padding-right: 120px;
+    border: 2px solid #0a4b24;
+    margin-right: -5px;
+    border-right: none;
+    flex: 1;
+    min-width: 200px;
+}
+
+.button-form {
+    padding: 10px 20px;
+    background-color: #0a4b24;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
