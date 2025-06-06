@@ -63,17 +63,8 @@
     bottom: 188px;
 }
 }
-@media (min-width:1400px) {
-    .input-se {
-    padding: 8px;
-    padding-right:250px;
-    border: 2px solid #0a4b24;
-    margin-right: -5px;
-    border-right: none;
-    flex: 1;
-    min-width: 200px;
-}   
-}
+
+
 @media (max-width:525px) {
     .input-se {
     padding: 8px;
