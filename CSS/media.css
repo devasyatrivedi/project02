@@ -68,6 +68,8 @@
 @media (max-width:525px) {
     .input-se {
     padding: 8px;
+    padding-right: 0px !important;
+    justify-content: space-evenly;
     border: 2px solid #0a4b24;
     margin-right: -5px;
     border-right: none;
