@@ -23,7 +23,7 @@
   .carousel-item-1 {
     margin-right: 0 !important;
     flex: 0 0 33.333333% !important;
-    display: block !important;
+    display: flex !important;
   }
 }
 @media (max-width:1400px) {
@@ -73,9 +73,12 @@
     justify-content: space-evenly;
     border: 2px solid #0a4b24;
     margin-right: -5px;
-    border-right: none;
+
     flex: 1;
     min-width: 200px;
+}
+.mobile{
+    padding: 0px;
 }   
 }
 @media (max-width:413px) {

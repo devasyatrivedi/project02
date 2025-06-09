@@ -1,3 +1,14 @@
+.carousel-caption{
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: fadeInDown 0.6 ease-out forwards;
+}
+@keyframes fadeInDown{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 .float-right {
     color: lightgray;
     font-weight: 500;
@@ -20,10 +31,9 @@
 
 .input-se {
     padding: 8px;
-    padding-right: 120px;
+    padding-right: 160px;
     border: 2px solid #0a4b24;
     margin-right: -5px;
-    border-right: none;
     flex: 1;
     min-width: 200px;
 }
