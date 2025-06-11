@@ -69,3 +69,9 @@
     
     transform: scale(1.1);
 }
+.popdown{
+    transition: transform 0.3s ease;   
+}
+.popdown:hover{
+    transform: scale(0.9);
+}
